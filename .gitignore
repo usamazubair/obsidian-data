@@ -1,0 +1,13 @@
+# Obsidian per-device UI state (changes constantly, causes merge conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Secrets — never push these (kept locally only)
+*[Cc]redentials*.md
+
+# Trash & OS junk
+.trash/
+.DS_Store
+Thumbs.db
+desktop.ini

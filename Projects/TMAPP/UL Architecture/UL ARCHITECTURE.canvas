@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"090c1aea0dd63c37","type":"group","x":-500,"y":220,"width":880,"height":541,"label":"Hamza Work"},
+		{"id":"7f5483897169c1a2","type":"group","x":-500,"y":-460,"width":797,"height":587,"label":"Portal"},
+		{"id":"2d19f678186a6a33","type":"text","text":"ADD EFOS FILE\n","x":-1083,"y":-430,"width":250,"height":60},
+		{"id":"8912a4d5650ea104","type":"text","text":"Two files upload to s3 \n1. user_heirarchy.json file\n2. validated.xlsx file","x":-1083,"y":380,"width":363,"height":189},
+		{"id":"d0f18608314c08c2","x":-233,"y":440,"width":250,"height":60,"type":"text","text":"Temp Server\nSee More [[Projects/TMAPP/UL Architecture/Temp Server]]"},
+		{"id":"f04e55cc8ebcbc4f","type":"text","text":"Pushed to staging\nSee More [[Projects/TMAPP/UL Architecture/Deploy to Server]]","x":69,"y":240,"width":250,"height":120},
+		{"id":"780d81aba220b3f3","type":"text","text":"Fetch file from s3\nOnly user_heirarchy.json","x":-483,"y":240,"width":250,"height":120},
+		{"id":"8c4cac3df3f28926","type":"text","text":"Fetch file\nSee more [[Projects/TMAPP/UL Architecture/Validated Server]]\n","x":-500,"y":630,"width":250,"height":91},
+		{"id":"f0bf6431ee7980d2","type":"text","text":"Pushed to production\nSee More [[Projects/TMAPP/UL Architecture/Deploy to Server]]","x":131,"y":630,"width":250,"height":120},
+		{"id":"d154e83fe2a46036","type":"text","text":"PORTAL (React)\nSee More [[Projects/TMAPP/UL Architecture/Portal]]","x":-232,"y":-440,"width":301,"height":111},
+		{"id":"40a14b928206c174","type":"text","text":"Backend (Express)\nSee More [[Projects/TMAPP/UL Architecture/Backend (Express)]]","x":-478,"y":-100,"width":293,"height":135},
+		{"id":"82080abd0e46dee8","type":"text","text":"Python Backend\nSee More Backend [[Projects/TMAPP/UL Architecture/Python Backend]] ","x":-16,"y":7,"width":293,"height":55}
+	],
+	"edges":[
+		{"id":"6fe46867f16f706b","fromNode":"d154e83fe2a46036","fromSide":"bottom","toNode":"40a14b928206c174","toSide":"top"},
+		{"id":"e964922d5adaf4ac","fromNode":"40a14b928206c174","fromSide":"right","toNode":"82080abd0e46dee8","toSide":"left"},
+		{"id":"79b7819108573840","fromNode":"2d19f678186a6a33","fromSide":"right","toNode":"7f5483897169c1a2","toSide":"left"},
+		{"id":"6b1c4ff66f356766","fromNode":"8912a4d5650ea104","fromSide":"right","toNode":"090c1aea0dd63c37","toSide":"left"},
+		{"id":"faa1fa9de6065302","fromNode":"7f5483897169c1a2","fromSide":"left","toNode":"8912a4d5650ea104","toSide":"top"},
+		{"id":"78444118a300bb8d","fromNode":"780d81aba220b3f3","fromSide":"right","toNode":"d0f18608314c08c2","toSide":"top"},
+		{"id":"ae81dad69b7786ec","fromNode":"8c4cac3df3f28926","fromSide":"right","toNode":"d0f18608314c08c2","toSide":"bottom"},
+		{"id":"24afe36b5b44b855","fromNode":"d0f18608314c08c2","fromSide":"right","toNode":"f04e55cc8ebcbc4f","toSide":"bottom"},
+		{"id":"3e14dfe3c0d526dd","fromNode":"d0f18608314c08c2","fromSide":"right","toNode":"f0bf6431ee7980d2","toSide":"top"}
+	]
+}

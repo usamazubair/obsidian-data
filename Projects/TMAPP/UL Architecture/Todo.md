@@ -1,0 +1,4 @@
+- [x] Remove the SUPERVISOR Logic
+- [x] Connect the Umer Ubaid backend with github
+- [x] Add or update the tmg-user-heirarchy. through portal
+- [ ] Assist Shuaib to work on the script for pushing the data into db.
