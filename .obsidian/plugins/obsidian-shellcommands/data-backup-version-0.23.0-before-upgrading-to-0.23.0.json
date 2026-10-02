@@ -30,7 +30,7 @@
       },
       "shells": {},
       "alias": "Git: backup vault to GitHub",
-      "icon": "lucide-upload-cloud",
+      "icon": "upload-cloud",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
