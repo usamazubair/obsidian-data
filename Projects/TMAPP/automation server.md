@@ -1,3 +1,5 @@
+#automationServer
+
 1. git pull
 2. cd /home/ubuntu/tmapp_data_processing/unilever/ul-ml-tm-app
 3. conda activate automation
