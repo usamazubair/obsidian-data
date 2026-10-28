@@ -1,1 +1,0 @@
-1. We can calculate the Relative target by % sale/target
