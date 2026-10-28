@@ -9,4 +9,4 @@
 4. Each shop should has curr_oos_brands => Stockout list + array count
 5. Each shop should has tobe_stockedout_brands => To Be Stocked Out + array count
 6. Each shop should has missed_skus => Assortment + array count
-7. In brands_info.{BrandName}.current_stock_days => atne din ho chuke hain stock out huewe.
+7. In brands_info.{BrandName}.current_stocked_out_days => atne din ho chuke hain stock out huewe.
