@@ -1,4 +1,4 @@
-1. Check whose route has the total number of red flags with this attribute total_red_flags
+1. Combine totalshops and then sort them with the issues and send top 10 to frontend
 2. Sort the todoList shops array by adding as
         "productivity_status": false,
         "stocked_out_status": true,
