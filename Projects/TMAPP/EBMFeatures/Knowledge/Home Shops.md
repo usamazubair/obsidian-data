@@ -10,3 +10,5 @@
 5. Each shop should has tobe_stockedout_brands => To Be Stocked Out + array count
 6. Each shop should has missed_skus => Assortment + array count
 7. In brands_info.{BrandName}.current_stocked_out_days => atne din ho chuke hain stock out huewe.
+8. Passing the filter too right "All", "Stockout", "Assortment" , "Productivity",  "Stock out soon"
+9. Passing the status array this which 
