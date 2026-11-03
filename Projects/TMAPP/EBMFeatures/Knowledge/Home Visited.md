@@ -1,1 +1,2 @@
 Get the visited from the total Visits from the collection tmg-shop-submission right now it can atmost 10 because priority of the shops are 10 
+If user visit the shop then this shop should not visible any category.
